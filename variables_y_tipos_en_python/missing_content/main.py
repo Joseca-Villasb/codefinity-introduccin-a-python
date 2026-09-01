@@ -1,0 +1,19 @@
+# Number of classes and students per class
+classes = 6
+students = 45
+total_classes = 0
+total_students = 0
+
+
+# Calculate total number of students
+total_students = students * classes
+
+# Calculate total number of classes
+total_classes = total_students // 27
+
+# Testing
+print("Number of students:", total_students)
+print("Number of groups:", total_classes)
+
+
+
